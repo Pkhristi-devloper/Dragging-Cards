@@ -25,7 +25,7 @@ const Foreground = () => {
   ];
   let ref = useRef(null);
   return (
-    <div ref={ref} className="fixed h-full w-full top-0 left-0 z-[3]">
+    <div ref={ref} className="fixed h-full w-full top-0 left-0 z-[3] p-10">
       <div className="flex gap-10 flex-wrap">
        {
         data.map((item,idx)=>{
